@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+
 import Home from "./components/home/Home";
+import Services from "./components/home/services/Services";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,6 +10,7 @@ function App() {
   return (
     <main className="main">
       <Home />
+      <Services />
     </main>
   );
 }

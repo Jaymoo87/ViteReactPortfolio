@@ -1,12 +1,17 @@
 .home {
-  background-color: var(--first-gradient);
+  background-image: var(--first-gradient);
   min-height: 100vh;
+}
+
+.home__wrapper {
   display: grid;
   align-items: center;
+  padding-bottom: 180px;
 }
 
 .home__container {
   width: 100%;
+  position: relative;
 }
 
 .home__subtitle,
@@ -17,6 +22,7 @@
 .home__subtitle,
 .home__job span {
   font-size: var(--small-font-size);
+  color: var(--title-color);
 }
 
 .home__subtitle span,
@@ -73,4 +79,101 @@
   width: 40px;
   height: 2px;
   background-color: var(--border-color);
+}
+
+.home__image-wrapper {
+  position: absolute;
+  top: -10%;
+  right: 12px;
+  transform: translateY(-10%);
+  width: 100%;
+  max-width: 480px;
+}
+.home__banner {
+  background-color: var(--primary-color);
+  padding-bottom: 100%;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+.home__profile {
+  position: absolute;
+  padding-left: 80px;
+  padding-bottom: 60px;
+  padding-top: 40px;
+  bottom: 0;
+  height: 600px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.home__data {
+  border: 2px solid var(--border-color);
+  background: var(--container-color);
+  box-shadow: var(--shadow);
+  padding-inline: 20px;
+  width: 250px;
+  height: 82px;
+  border-radius: 82px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.home__data-one {
+  bottom: 2%;
+  left: -20%;
+}
+.home__data-two {
+  bottom: -8%;
+  right: -20%;
+}
+
+.home__data .text-lg,
+.home__data .text-sm {
+  width: 50%;
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+.home__data .text-lg {
+  text-align: center;
+  font-size: 27px;
+}
+
+.home__data .text-sm {
+  line-height: 1.5em;
+  font-size: 13px;
+}
+
+.home__data .text-lg b,
+.home__data .text-sm span {
+  color: var(--primary-color);
+}
+
+.home__data .text-lg b {
+  position: relative;
+  top: -4px;
+}
+.shape__1 {
+  width: 226px;
+  height: 226px;
+  top: -10%;
+  right: -5%;
+}
+
+.shape__2,
+.shape__3 {
+  width: 141px;
+  height: 141px;
+}
+
+.shape__2 {
+  bottom: -13%;
+  left: -34%;
+}
+.shape__3 {
+  bottom: -8%;
+  right: -30%;
 }

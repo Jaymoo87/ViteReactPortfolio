@@ -1,5 +1,5 @@
 import React from "react";
-import JustinFace from "../../assets/JustinFace.jpg";
+import JustinFaceCutOut from "../../assets/JustinFaceCutOut.png";
 import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 
@@ -10,59 +10,83 @@ import "./home.css";
 const Home = () => {
   return (
     <section className="home" id="home">
-      <div className="home__container container">
-        <p className="home__subtitle text-cs">
-          Hello, <span>My Name Is</span>
-        </p>
+      <div className="home_wrapper">
+        <div className="home__container container">
+          <p className="home__subtitle text-cs">
+            Hello, <span>My Name Is</span>
+          </p>
 
-        <h1 className="home__title text-cs">
-          <span>JUSTIN</span> MURRAH
-        </h1>
+          <h1 className="home__title text-cs">
+            <span>JUSTIN</span> MURRAH
+          </h1>
 
-        <p className="home__job">
-          <span className="text-cs">I Am A</span> <b>Web Developer</b>
-        </p>
-        <div className="home__image-wrapper">
-          <div className="home__banner">
-            <img src={JustinFace} alt="" className="home__profile" />
-          </div>
-        </div>
+          <p className="home__job">
+            <span className="text-cs">I Am A</span> <b>Web Developer</b>
+          </p>
+          <div className="home__image-wrapper">
+            <div className="home__banner">
+              <img src={JustinFaceCutOut} alt="" className="home__profile" />
+            </div>
 
-        <p className="home__text">
-          {" "}
-          I'm from Alabama. I am a recent React Full-Stack bootcamp graduate and am looking foward to a new career in
-          web development
-        </p>
+            <p className="home__data home__data-one">
+              <span className="text-lg">
+                {" "}
+                12 <b>+</b>
+              </span>
+              <span className="text-sm text-cs">
+                {" "}
+                Years of A <span>Go Getter Attitude</span>
+              </span>
+            </p>
+            <p className="home__data home__data-two">
+              <span className="text-lg"> 330</span>
+              <span className="text-sm text-cs">
+                {" "}
+                Completed <span>Projects</span>
+              </span>
+            </p>
 
-        <div className="home__socials">
-          <div className="home__social-link">
-            <FaReact />
+            <img src={shapeOne} alt="" className="shape shape__1" />
+            <img src={shapeTwo} alt="" className="shape shape__2" />
+            <img src={shapeTwo} alt="" className="shape shape__3" />
           </div>
-          <div className="home__social-link">
-            <FaNode />
-          </div>
-          <div className="home__social-link">
-            <SiTypescript />
-          </div>
-          <div className="home__social-link">
-            <SiMysql />
-          </div>
-          <div className="home__social-link">
-            <SiMongodb />
-          </div>
-          <a href="" className="home__social-link">
-            <FaGithubSquare />
-          </a>
-        </div>
 
-        <div className="home__btns text-cs">
-          <a href="" className="btn">
-            Download CV
-          </a>
+          <p className="home__text">
+            {" "}
+            I'm from Alabama. I am a recent React Full-Stack bootcamp graduate and am looking foward to a new career in
+            web development
+          </p>
 
-          <a href="" className="hero__link text-cs">
-            My Skills
-          </a>
+          <div className="home__socials">
+            <div className="home__social-link">
+              <FaReact />
+            </div>
+            <div className="home__social-link">
+              <FaNode />
+            </div>
+            <div className="home__social-link">
+              <SiTypescript />
+            </div>
+            <div className="home__social-link">
+              <SiMysql />
+            </div>
+            <div className="home__social-link">
+              <SiMongodb />
+            </div>
+            <a href="" className="home__social-link">
+              <FaGithubSquare />
+            </a>
+          </div>
+
+          <div className="home__btns text-cs">
+            <a href="" className="btn">
+              Download CV
+            </a>
+
+            <a href="" className="hero__link text-cs">
+              My Skills
+            </a>
+          </div>
         </div>
       </div>
     </section>
