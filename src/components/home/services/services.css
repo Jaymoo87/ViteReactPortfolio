@@ -27,7 +27,7 @@
   min-height: 175px;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets {
+.swiper-pagination .swiper-pagination-clickable .swiper-pagination-bullets .swiper-pagination-horizontal {
   width: auto;
   position: relative;
 }

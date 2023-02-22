@@ -12,6 +12,7 @@
 .home__container {
   width: 100%;
   position: relative;
+  padding-top: 10%;
 }
 
 .home__subtitle,
@@ -83,7 +84,7 @@
 
 .home__image-wrapper {
   position: absolute;
-  top: -10%;
+  top: 50%;
   right: 12px;
   transform: translateY(-10%);
   width: 100%;
