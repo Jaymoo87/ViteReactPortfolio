@@ -13,11 +13,11 @@
     *colors
     */
 
-  --primary-color: hsl(165, 60%, 40%);
+  --primary-color: hsl(227, 77%, 58%);
   --title-color: hsl(0, 0%, 100%);
   --text-color: hsl(0, 0%, 92%);
-  --bg-color: hsl(216, 18%, 16%);
-  --bg-color-alt: hsl(213, 10%, 21%);
+  --bg-color: hsl(214, 34%, 16%);
+  --bg-color-alt: hsl(212, 14%, 21%);
   --container-color: hsl(217, 18%, 14%);
   --border-color: hsl(210, 2%, 65%);
   --first-gradient: linear-gradient(0deg, var(--bg-color-alt) 0%, var(--bg-color) 100%);
@@ -119,6 +119,10 @@ image {
   padding-inline: 12px;
   margin-inline: auto;
 }
+.grid {
+  display: grid;
+  gap: 24px;
+}
 
 .text-cs {
   text-transform: uppercase;
@@ -177,6 +181,7 @@ image {
 
 .section__title {
   font-size: var(--h2-font-size);
+  text-transform: uppercase;
 }
 
 .section__subtitle {
@@ -203,6 +208,11 @@ image {
 .card-one {
   padding: 30px 35px;
   border-radius: 18px;
+}
+
+.card-two {
+  padding: 30px;
+  border-radius: 20px;
 }
 
 .link {
