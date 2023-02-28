@@ -9,6 +9,7 @@ import Resume from "./components/resume/Resume";
 import Testimonials from "./components/testimonials/Testimonials";
 import Pricing from "./components/pricing/Pricing";
 import Blog from "./components/blog/Blog";
+import Contact from "./components/contact/Contact";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,6 +24,7 @@ function App() {
       <Testimonials />
       <Pricing />
       <Blog />
+      <Contact />
     </main>
   );
 }
