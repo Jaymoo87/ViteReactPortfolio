@@ -8,6 +8,7 @@ import Skills from "./components/skills/Skills";
 import Resume from "./components/resume/Resume";
 import Testimonials from "./components/testimonials/Testimonials";
 import Pricing from "./components/pricing/Pricing";
+import Blog from "./components/blog/Blog";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
       <Resume />
       <Testimonials />
       <Pricing />
+      <Blog />
     </main>
   );
 }

@@ -53,7 +53,7 @@
   width: 100%;
   object-fit: cover;
   vertical-align: middle;
-  transition: all 0.6s var(--transition);
+  transition: all 0.3s var(--transition);
 }
 
 .portfolio__item:hover .portfolio__img {

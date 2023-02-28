@@ -40,12 +40,51 @@ const Pricing = () => {
             </li>
           </ul>
 
-          <a href="" className="btn pricing__btn">
+          <a href="" className="btn pricing__btn text-cs">
             Start Project
-            <FaArrowRight className="pricing__btn-icon"></FaArrowRight>{" "}
+            <FaArrowRight className="pricing__btn-icon"></FaArrowRight>
           </a>
 
-          <img src={shapeTwo} alt="" className="shape c__shape" />
+          {/* <img src={shapeTwo} alt="" className="shape c__shape" /> */}
+        </div>
+
+        <div className="pricing__item-wrapper">
+          <span className="pricing__label text-cs"> Popular</span>
+          <div className="pricing__item card card-one">
+            <span className="pricing__subtitle text-cs">Hourly Basis</span>
+            <h3 className="pricing__price">
+              39 <span>$</span> <em>Hour</em>
+            </h3>
+
+            <p className="pricing__description"></p>
+
+            <ul className="pricing__list">
+              <li className="list__item">
+                <FaCheck className="list__icon"></FaCheck>
+                <span>Brand Design</span>
+              </li>
+
+              <li className="list__item">
+                <FaCheck className="list__icon"></FaCheck>
+                <span>Web Development</span>
+              </li>
+
+              <li className="list__item">
+                <del>Advertising</del>
+              </li>
+
+              <li className="list__item">
+                <del>Photography</del>
+              </li>
+            </ul>
+
+            <a href="" className="btn pricing__btn text-cs">
+              Start Project
+              <FaArrowRight className="pricing__btn-icon"></FaArrowRight>
+            </a>
+
+            <img src={shapeTwo} alt="" className="shape c__shape" />
+          </div>
         </div>
 
         <div className="pricing__item card card-one">
@@ -76,12 +115,11 @@ const Pricing = () => {
             </li>
           </ul>
 
-          <a href="" className="btn pricing__btn">
+          <a href="" className="btn pricing__btn text-cs">
             Start Project
-            <FaArrowRight className="pricing__btn-icon"></FaArrowRight>{" "}
+            <FaArrowRight className="pricing__btn-icon"></FaArrowRight>
           </a>
-
-          <img src={shapeTwo} alt="" className="shape c__shape" />
+          {/* <img src={shapeTwo} alt="" className="shape c__shape" /> */}
         </div>
 
         <div className="pricing__item card card-one">
@@ -113,12 +151,12 @@ const Pricing = () => {
             </li>
           </ul>
 
-          <a href="" className="btn pricing__btn">
+          <a href="" className="btn pricing__btn text-cs">
             Start Project
-            <FaArrowRight className="pricing__btn-icon"></FaArrowRight>{" "}
+            <FaArrowRight className="pricing__btn-icon"></FaArrowRight>
           </a>
 
-          <img src={shapeTwo} alt="" className="shape c__shape" />
+          {/* <img src={shapeTwo} alt="" className="shape c__shape" /> */}
         </div>
 
         <div className="pricing__item card card-one">
@@ -151,12 +189,11 @@ const Pricing = () => {
             </li>
           </ul>
 
-          <a href="" className="btn pricing__btn">
+          <a href="" className="btn pricing__btn text-cs">
             Start Project
-            <FaArrowRight className="pricing__btn-icon"></FaArrowRight>{" "}
+            <FaArrowRight className="pricing__btn-icon"></FaArrowRight>
           </a>
-
-          <img src={shapeTwo} alt="" className="shape c__shape" />
+          {/* <img src={shapeTwo} alt="" className="shape c__shape" /> */}
         </div>
       </div>
     </section>
