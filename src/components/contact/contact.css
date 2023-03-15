@@ -1,5 +1,5 @@
 .contact {
-  background-image: var(--second-gradient);
+  background-image: var(--first-gradient);
 }
 
 .contact__container {
@@ -49,7 +49,7 @@
 }
 
 .contact__form-group {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 2fr);
   column-gap: 30px;
 }
 

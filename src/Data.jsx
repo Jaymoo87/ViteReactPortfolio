@@ -4,6 +4,7 @@ import Project3 from "./assets/project3.jpeg";
 import Project4 from "./assets/project4.jpeg";
 import Project5 from "./assets/project5.jpg";
 import Project6 from "./assets/project6.jpg";
+import blogPicture from "./assets/blogPicture.jpg";
 
 import Testimonial1 from "./assets/testimonial1.jpg";
 import Testimonial2 from "./assets/testimonial2.jpg";
@@ -140,11 +141,12 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    img: Project1,
-    category: "Branding",
-    title: "Zorro",
+    img: blogPicture,
+    category: "UI/UX, Full-Stack",
+    title: "Blog Website",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "Full-Stack Blog with JWT authentication and mailgun support. Built with ReactJs, Node.js, ExpressJs and MySQL. Includes Stripe configuration for donations.",
+    link: "https://jaymooblog.fly.dev/",
   },
   {
     id: 2,

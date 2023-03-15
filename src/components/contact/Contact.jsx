@@ -72,7 +72,7 @@ const Contact = () => {
               />
 
               <div className="contact__form-div">
-                <label className="contact_form-tag text-cs">
+                <label className="contact__form-tag text-cs">
                   Your Email Address <b>*</b>
                 </label>
                 <input
@@ -83,11 +83,11 @@ const Contact = () => {
                   className="contact__form-input"
                 />
               </div>
-            </div>{" "}
+            </div>
           </div>
 
           <div className="contact__form-div">
-            <label className="contact_form-tag text-cs">
+            <label className="contact__form-tag text-cs">
               Subject <b>*</b>
             </label>
             <input
@@ -100,7 +100,7 @@ const Contact = () => {
           </div>
 
           <div className="contact__form-div contact__form-area">
-            <label className="contact_form-tag text-cs">
+            <label className="contact__form-tag text-cs">
               Message <b>*</b>
             </label>
             <textarea
@@ -113,7 +113,9 @@ const Contact = () => {
 
           <div className="contact__submit">
             <p>* Accept the terms and conditions</p>
-            <button type="submit">Submit</button>
+            <button type="submit" className="btn text-cs">
+              Submit
+            </button>
           </div>
         </form>
       </div>

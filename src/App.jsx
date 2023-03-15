@@ -17,13 +17,13 @@ function App() {
   return (
     <main className="main">
       <Home />
-      <Services />
+      {/* <Services /> */}
       <Skills />
       <Portfolio />
       <Resume />
-      <Testimonials />
-      <Pricing />
-      <Blog />
+      {/* <Testimonials /> */}
+      {/* <Pricing /> */}
+      {/* <Blog /> */}
       <Contact />
     </main>
   );

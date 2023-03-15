@@ -2,12 +2,14 @@ import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 // import shapeTwo from "../../assets/shape-2.png";
 import { motion } from "framer-motion";
+import { SiTypescript, SiMysql } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 
 const Items = ({ projectItems }) => {
   return (
     <>
       {projectItems.map((project) => {
-        const { id, img, category, title, description } = project;
+        const { id, img, category, title, description, link } = project;
         return (
           <motion.div
             layout
@@ -23,14 +25,17 @@ const Items = ({ projectItems }) => {
               <img src={img} className="portfolio__img" />
             </div>
             <span className="portfolio__category text-cs">{category}</span>
+            <div className="home__social-link">
+              <FaReact style={{ padding: "2" }} /> <SiTypescript />
+            </div>
+            <div className="home__social-link"></div>
             <h3 className="portfolio__title">{title}</h3>
             <p className="portfolio__description">{description}</p>
-            <a href="" className="link">
-              See Pricing
+
+            <a href="https://jaymooblog.fly.dev/" className="link">
+              {link}
               <FaArrowRight className="link__icon"></FaArrowRight>
             </a>
-
-            {/* <img src={shapeTwo} alt="" className="shape c__shape" /> */}
           </motion.div>
         );
       })}
