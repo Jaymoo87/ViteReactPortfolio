@@ -9,7 +9,7 @@
 
 .skills__titles,
 .skills__description {
-  padding-inline: 30px;
+  padding-inline: 10px;
 }
 
 .skills__titles {
@@ -31,8 +31,11 @@
   color: var(--primary-color);
 }
 
-.skills__description {
-  margin-bottom: 30px;
+.skills__description,
+.description__font {
+  margin-top: 20px;
+  /* margin-bottom: 30px; */
+  font-size: var(--smaller-font-size);
 }
 
 .skills__bar,

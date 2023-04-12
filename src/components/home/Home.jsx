@@ -30,19 +30,16 @@ const Home = () => {
 
             <p className="home__data home__data-one">
               <span className="text-lg">
-                {" "}
                 12 <b>+</b>
               </span>
               <span className="text-sm text-cs">
-                {" "}
                 Years of A <span>Go Getter Attitude</span>
               </span>
             </p>
             <p className="home__data home__data-two">
-              <span className="text-lg"> 330</span>
+              <span className="text-lg">Full Stack</span>
               <span className="text-sm text-cs">
-                {" "}
-                Completed <span>Projects</span>
+                Web <span> Devoloper</span>
               </span>
             </p>
 
@@ -52,7 +49,6 @@ const Home = () => {
           </div>
 
           <p className="home__text">
-            {" "}
             I'm from Alabama. I am a recent React Full-Stack bootcamp graduate and am looking foward to a new career in
             web development
           </p>
@@ -73,7 +69,7 @@ const Home = () => {
             <div className="home__social-link">
               <SiMongodb />
             </div>
-            <a href="" className="home__social-link">
+            <a href="https://github.com/Jaymoo87" className="home__social-link">
               <FaGithubSquare />
             </a>
           </div>

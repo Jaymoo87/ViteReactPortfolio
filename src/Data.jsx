@@ -91,34 +91,33 @@ export const services = [
 export const skills = [
   {
     id: 1,
-    name: "PHP",
-    percentage: 85,
+    name: "React",
+    percentage: 90,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "While I primarily use the React library for my projects, I acknowledge the significance of other component libraries and structures. As a result, I am eager to expand my knowledge and explore a variety of different libraries.",
   },
-
   {
     id: 2,
     name: "JavaScript",
-    percentage: 75,
+    percentage: 95,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "JavaScript is my primary programming language. Through my studies, I have developed a strong foundation in programming language structures, starting with DOM manipulation. Since then, I have honed my skills in writing test scripts and am well-versed in modern ES6 shorthand techniques.",
   },
 
   {
     id: 3,
-    name: "WordPress",
-    percentage: 90,
+    name: "Database Management",
+    percentage: 85,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "My primary experience is working with relational databases, including MySQL, Postgres, and CockroachDB. I have transferred data between these databases using manual techniques and ORM's. I also have experience with database normalization. Additionally, I have some experience working with non-relational databases.",
   },
 
   {
     id: 4,
-    name: "Python",
-    percentage: 75,
+    name: "Results-Driven Professional",
+    percentage: 100,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Throughout my professional career, I have helped define standards and business practices that result in growth and high-quality products. I have led the development of new business structures to increase successful outcomes and ensure the success of projects and initiatives.",
   },
 
   {
