@@ -121,7 +121,10 @@
   position: absolute;
   z-index: 1;
 }
-
+.text-md {
+  font-size: 18px;
+  font-weight: bold;
+}
 .home__data-one {
   bottom: 2%;
   left: -20%;

@@ -37,7 +37,7 @@ const Home = () => {
               </span>
             </p>
             <p className="home__data home__data-two">
-              <span className="text-lg">Full Stack</span>
+              <span className="text-md text-cs">Full Stack</span>
               <span className="text-sm text-cs">
                 Web <span> Devoloper</span>
               </span>
