@@ -107,7 +107,7 @@ export const skills = [
   {
     id: 3,
     name: "Database Management",
-    percentage: 85,
+    percentage: 70,
     description:
       "My primary experience is working with relational databases, including MySQL, Postgres, and CockroachDB. I have transferred data between these databases using manual techniques and ORM's. I also have experience with database normalization. Additionally, I have some experience working with non-relational databases.",
   },

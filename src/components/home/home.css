@@ -113,7 +113,7 @@
   background: var(--container-color);
   box-shadow: var(--shadow);
   padding-inline: 20px;
-  width: 250px;
+  width: 230px;
   height: 85px;
   border-radius: 82px;
   display: flex;
@@ -125,6 +125,12 @@
   font-size: 18px;
   font-weight: bold;
 }
+
+.text-md,
+.text-cs {
+  margin-left: 20px;
+}
+
 .home__data-one {
   bottom: 2%;
   left: -20%;

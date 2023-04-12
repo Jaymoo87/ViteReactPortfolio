@@ -30,14 +30,17 @@ const Home = () => {
 
             <p className="home__data home__data-one">
               <span className="text-lg">
-                12 <b>+</b>
+                1 <b>+</b>
               </span>
               <span className="text-sm text-cs">
-                Years of A <span>Go Getter Attitude</span>
+                Year of <span>Development Projects</span>
               </span>
             </p>
             <p className="home__data home__data-two">
-              <span className="text-md text-cs">Full Stack</span>
+              <span className="text-md text-cs">
+                Full <br />
+                Stack
+              </span>
               <span className="text-sm text-cs">
                 Web <span> Devoloper</span>
               </span>
