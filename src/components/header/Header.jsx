@@ -6,6 +6,7 @@ import { SiTypescript, SiMysql, SiMongodb } from "react-icons/si";
 
 import { links } from "../../Data";
 import { BsSun, BsMoon } from "react-icons/bs";
+import shapeOne from "../../assets/shape-1.png";
 import "./header.css";
 
 const getStorageTheme = () => {
@@ -102,6 +103,10 @@ const Header = () => {
                 <FaGithubSquare />
               </a>
             </div>
+          </div>
+
+          <div className="section__deco deco__left header__deco">
+            <img src={shapeOne} alt="" className="shape" />
           </div>
         </div>
 

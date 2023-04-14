@@ -2,6 +2,8 @@ import React from "react";
 import { skills } from "../../Data";
 import "./skills.css";
 
+import shapeOne from "../../assets/shape-1.png";
+
 const Skills = () => {
   return (
     <section className="skills section" id="skills">
@@ -28,6 +30,10 @@ const Skills = () => {
             </div>
           );
         })}
+      </div>
+
+      <div className="section__deco deco__right">
+        <img src={shapeOne} alt="" className="shape" />
       </div>
     </section>
   );
