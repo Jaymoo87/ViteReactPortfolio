@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaRegAddressBook, FaRegEnvelope, FaRegUser, FaRegMap } from "react-icons/fa";
 
 import "./contact.css";
+import axios from "axios";
 
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
@@ -9,6 +10,14 @@ const Contact = () => {
     const name = e.target.name;
     const value = e.target.value;
     setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    axios.post("https://sheet.best/api/sheets/87f94f49-1ca8-42a1-ac44-230abbfea11d", form).then((response) => {
+      console.log(response);
+      setForm({ name: "", email: "", subject: "", message: "" });
+    });
   };
 
   return (
@@ -57,7 +66,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form className="contact__form">
+        <form className="contact__form" onSubmit={handleSubmit}>
           <div className="contact__form-group grid">
             <div className="contact__form-div">
               <label className="contact__form-tag text-cs">
