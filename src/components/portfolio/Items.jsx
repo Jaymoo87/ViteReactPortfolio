@@ -32,7 +32,7 @@ const Items = ({ projectItems }) => {
             <h3 className="portfolio__title">{title}</h3>
             <p className="portfolio__description">{description}</p>
 
-            <a href="https://jaymooblog.fly.dev/" className="link">
+            <a href={link} className="link">
               {link}
               <FaArrowRight className="link__icon"></FaArrowRight>
             </a>

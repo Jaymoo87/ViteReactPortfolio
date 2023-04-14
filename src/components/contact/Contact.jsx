@@ -122,9 +122,7 @@ const Contact = () => {
 
           <div className="contact__submit">
             <p>* Accept the terms and conditions</p>
-            <button type="submit" className="btn text-cs">
-              Submit
-            </button>
+            <button className="btn text-cs">Submit</button>
           </div>
         </form>
       </div>
