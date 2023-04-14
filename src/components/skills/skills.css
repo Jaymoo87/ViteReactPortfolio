@@ -34,8 +34,8 @@
 .skills__description,
 .description__font {
   margin-top: 20px;
-  /* margin-bottom: 30px; */
-  font-size: var(--smaller-font-size);
+
+  font-size: var(--small-font-size);
 }
 
 .skills__bar,

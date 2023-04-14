@@ -12,19 +12,19 @@ const Skills = () => {
       <div className="skills__container container grid">
         {skills.map(({ name, percentage, description }, index) => {
           return (
-            <div key={index} className="skills__item">
-              <div className="skills__titles">
-                <h3 className="skills__name">{name}</h3>
-                <span className="skills__number">
-                  {percentage} <span>%</span>
+            <div>
+              <div key={index} className="skills__item">
+                <div className="skills__titles">
+                  <h3 className="skills__name">{name}</h3>
+                  <span className="skills__number">
+                    {percentage} <span>%</span>
+                  </span>
+                </div>
+                <span className="skills__percentage" style={{ width: `${percentage}%` }}>
+                  <span></span>
                 </span>
+                <p className="skills__description description__font">{description}</p>
               </div>
-              <span className="skills__percentage" style={{ width: `${percentage}%` }}>
-                <span></span>
-              </span>
-              <p className="skills__description description__font">{description}</p>
-
-              <div className="skills__bar"></div>
             </div>
           );
         })}
