@@ -7,20 +7,54 @@ import { SiTypescript, SiMysql, SiMongodb } from "react-icons/si";
 import { links } from "../../Data";
 import { BsSun, BsMoon } from "react-icons/bs";
 import "./header.css";
-import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
+
+const getStorageTheme = () => {
+  let theme = "light-theme";
+  if (localStorage.getItem("theme")) {
+    theme = localStorage.getItem("theme");
+  }
+};
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const [scrollNav, setScrollNav] = useState(() => {
+  const [scrollNav, setScrollNav] = useState(false);
+  const [theme, setTheme] = useState(getStorageTheme());
+
+  useEffect(() => {
     document.body.classList.toggle("no-scroll", showMenu);
   }, [showMenu]);
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+    localStorage.setItem("theme", theme);
+  }, [theme]);
 
   const scrollTop = () => {
     animateScroll.scrollToTop();
   };
 
+  const changeNav = () => {
+    if (window.scrollY >= 80) {
+      setScrollNav(true);
+    } else {
+      setScrollNav(false);
+    }
+  };
+
+  const toggleTheme = () => {
+    if (theme === "light-theme") {
+      setTheme("dark-theme");
+    } else {
+      setTheme("light-theme");
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeNav);
+  }, []);
+
   return (
-    <header className="header">
+    <header className={`${scrollNav ? "scroll-header" : ""} header`}>
       <nav className="nav">
         <Link to="/" onClick={scrollTop} className="nav__logo text-cs">
           Murrah
@@ -72,8 +106,8 @@ const Header = () => {
         </div>
 
         <div className="nav__btns">
-          <div className="theme__toggler">
-            <BsSun />
+          <div className="theme__toggler" onClick={toggleTheme}>
+            {theme === "light-theme" ? <BsMoon /> : <BsSun />}
           </div>
 
           <div

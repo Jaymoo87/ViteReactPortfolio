@@ -7,6 +7,21 @@
   padding: 30px;
 }
 
+.scroll-header {
+  position: fixed;
+  background-color: var(--bg-color-alt);
+  animation: header_animate 0.8s var(--transition) 0s forwards;
+}
+
+@keyframes header_animate {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
