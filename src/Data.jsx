@@ -199,57 +199,47 @@ export const cv = [
     subtitle: "Full-Stack Web Development Bootcamp",
     date: "2022 - 2023",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      " A comprehensive Full Stack Development course with a strong focus on SQL databases, the Express.js framework, the React library, and Node.js. Through this course, I gained a deep understanding of these technologies, as well as their practical applications in developing robust and scalable web applications. ",
     category: "education",
   },
 
   {
     id: 2,
-    title: "Lviv National Academy of Arts",
-    subtitle: "Faculty of Design",
-    date: "2012 - 2014",
+    title: "University of North Alabama",
+    subtitle: "Computer Science and GIS",
+    date: "2005 - 2008",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "My studies provided me with a broad range of technical skills, as well as a deep understanding of how technology can be applied to solve complex problems in a variety of industries. I developed strong analytical and problem-solving skills, which I applied to a variety of projects and assignments, including the design and development of web and mobile applications",
     category: "education",
   },
 
-  {
-    id: 3,
-    title: "IT Future",
-    subtitle: "High School",
-    date: "2010 - 2012",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "education",
-  },
+  // {
+  //   id: 3,
+  //   title: "IT Future",
+  //   subtitle: "High School",
+  //   date: "2010 - 2012",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  //   category: "education",
+  // },
 
   {
     id: 4,
-    title: "UI Head & Manager",
-    subtitle: "Soft Tech Inc.",
-    date: "2020 - PRESENT",
+    title: "Business and Team Development Consultant",
+    subtitle: "Rick's Farmer's Market",
+    date: "2020 - 2022",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "As a key member of the management team, I spearheaded the development of a new branch of our small business. In this role, I conducted extensive research to identify areas for improvement and developed and implemented new processes to optimize our services and increase customer satisfaction. To support these efforts, I designed and created complex databases to track inventory levels, deliveries, and perishables, providing critical insights to inform decision-making and enhance operational efficiency. As a mentor to both new and established employees, I provided guidance and support to help team members develop their skills and achieve their goals, contributing to a positive and productive work environment.",
     category: "experience",
   },
 
   {
     id: 5,
-    title: "UI / UX Specialist",
-    subtitle: "Kana Design Studio",
+    title: "Executive Chef",
+    subtitle: "Red Clay Table",
     date: "2018 - 2020",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    category: "experience",
-  },
-
-  {
-    id: 6,
-    title: "Plugins Developer",
-    subtitle: "Fiverr.com",
-    date: "2016 - 2018",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "As a seasoned manager with a proven track record of success, I built and led a highly effective team that excelled in a fast-paced, high-intensity environment. Through strategic hiring and effective training, I developed a team of motivated and skilled professionals who consistently delivered exceptional results.To support our team's success, I developed and implemented best practices and procedures that optimized our operations and enhanced the customer experience. These efforts resulted in improved customer satisfaction, increased repeat business, and a positive reputation in the community.Overall, my experience building and leading high-performing teams, combined with my expertise in process improvement and customer service, make me a valuable asset to any organization seeking to drive growth and achieve operational excellence.",
     category: "experience",
   },
 ];

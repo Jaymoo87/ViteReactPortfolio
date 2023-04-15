@@ -109,8 +109,8 @@
     row-gap: 60px;
   }
 
-  .hero__link {
-    left: 50%;
+  .hero__link::before {
+    left: 45%;
     top: -72%;
     transform: translateX(-50%);
     width: 2px;
@@ -134,8 +134,9 @@
   }
 
   .resume__icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    right: -20px;
   }
 
   .contact__form-group {
