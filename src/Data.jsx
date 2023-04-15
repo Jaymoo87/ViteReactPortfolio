@@ -19,34 +19,34 @@ export const links = [
     name: "Home",
     path: "home",
   },
-  {
-    name: "Services",
-    path: "services",
-  },
+  // {
+  //   name: "Services",
+  //   path: "services",
+  // },
   {
     name: "Skills",
     path: "skills",
   },
   {
-    name: "Works",
+    name: "Portfolio",
     path: "work",
   },
   {
     name: "Resume",
     path: "resume",
   },
-  {
-    name: "Testimonials",
-    path: "testimonial",
-  },
-  {
-    name: "Pricing",
-    path: "pricing",
-  },
-  {
-    name: "Blog",
-    path: "blog",
-  },
+  // {
+  //   name: "Testimonials",
+  //   path: "testimonial",
+  // },
+  // {
+  //   name: "Pricing",
+  //   path: "pricing",
+  // },
+  // {
+  //   name: "Blog",
+  //   path: "blog",
+  // },
   {
     name: "Contact",
     path: "contact",
@@ -239,7 +239,7 @@ export const cv = [
     subtitle: "Red Clay Table",
     date: "2018 - 2020",
     description:
-      "As a seasoned manager with a proven track record of success, I built and led a highly effective team that excelled in a fast-paced, high-intensity environment. Through strategic hiring and effective training, I developed a team of motivated and skilled professionals who consistently delivered exceptional results.To support our team's success, I developed and implemented best practices and procedures that optimized our operations and enhanced the customer experience. These efforts resulted in improved customer satisfaction, increased repeat business, and a positive reputation in the community.Overall, my experience building and leading high-performing teams, combined with my expertise in process improvement and customer service, make me a valuable asset to any organization seeking to drive growth and achieve operational excellence.",
+      "As a seasoned manager with a proven track record of success, I built and led a highly effective team that excelled in a fast-paced, high-intensity environment. Through strategic hiring and effective training, I developed a team of motivated and skilled professionals who consistently delivered exceptional results.To support our team's success, I developed and implemented best practices and procedures that optimized our operations and enhanced the customer experience. These efforts resulted in improved customer satisfaction, increased repeat business, and a positive reputation in the community. Overall, my experience building and leading high-performing teams, combined with my expertise in process improvement and customer service, make me a valuable asset to any organization seeking to drive growth and achieve operational excellence.",
     category: "experience",
   },
 ];

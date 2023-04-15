@@ -221,6 +221,11 @@
     transform: scale(0.6);
   }
 
+  .home__btns {
+    justify-content: center;
+    margin-right: 32px;
+  }
+
   .home__data-one {
     left: -12px;
   }
@@ -231,5 +236,12 @@
 
   .home__profile {
     height: 450px;
+  }
+
+  .resume__heading {
+    border-bottom: none;
+  }
+  .show-content {
+    max-height: 700px;
   }
 }

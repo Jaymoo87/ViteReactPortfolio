@@ -188,3 +188,14 @@
   bottom: -8%;
   right: -30%;
 }
+
+.githubLink {
+  text-decoration: none;
+  color: var(--title-color);
+  margin-left: 5px;
+  transition: all 0.9s var(--transition);
+}
+
+.githubLink:hover {
+  color: var(--primary-color);
+}
