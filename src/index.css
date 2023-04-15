@@ -12,7 +12,7 @@
   }
 
   .home__profile {
-    height: auto;
+    height: 700px;
   }
 
   .home__data {
@@ -49,6 +49,10 @@
 
   .home__text {
     margin-inline: auto;
+  }
+
+  .home__profile {
+    height: 725px;
   }
 
   .home__image-wrapper {
@@ -93,6 +97,10 @@
 
   .container {
     max-width: 740px;
+  }
+
+  .home__profile {
+    height: 750px;
   }
 
   .home__btns {
@@ -165,11 +173,32 @@
   .header {
     padding: 24px 12px;
   }
-
-  .navv__data {
-    padding: 80px 0 0 124px;
+  .contact__container,
+  .skills__container,
+  .portfolio__container,
+  .pricing__container,
+  .blog__container,
+  .resume__container {
+    gap: 30px;
+    grid-template-columns: 1fr;
   }
 
+  .resume__container {
+    padding: 10px;
+  }
+
+  .nav__data {
+    padding: 80px 0 0 124px;
+  }
+  .contact__card-icon {
+    font-size: var(--large-font-size);
+    width: 42px;
+    height: 42px;
+  }
+
+  .contact__card-icon::after {
+    width: 40px;
+  }
   .show__menu {
     width: 420px;
   }
@@ -188,7 +217,7 @@
   }
 
   .home__data {
-    transform: scale(0.06);
+    transform: scale(0.6);
   }
 
   .home__data-one {
@@ -197,5 +226,9 @@
 
   .home__data-two {
     right: -7%;
+  }
+
+  .home__profile {
+    height: 450px;
   }
 }
