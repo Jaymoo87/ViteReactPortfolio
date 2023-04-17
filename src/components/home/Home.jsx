@@ -7,7 +7,6 @@ import { FaNode, FaGithubSquare, FaReact } from "react-icons/fa";
 import { SiTypescript, SiMysql, SiMongodb } from "react-icons/si";
 import CV from "../../assets/Justin-Resume.pdf";
 import "./home.css";
-import { Link } from "react-scroll";
 
 const Home = () => {
   return (

@@ -9,7 +9,7 @@ const Items = ({ projectItems }) => {
   return (
     <>
       {projectItems.map((project) => {
-        const { id, img, category, title, description, link } = project;
+        const { id, img, category, title, description, link, icon1, icon2, icon3, icon4, icon5 } = project;
         return (
           <motion.div
             layout
@@ -22,12 +22,19 @@ const Items = ({ projectItems }) => {
             key={id}
           >
             <div className="portfolio__img-wrapper">
-              <img src={img} className="portfolio__img" />
+              <a href={link}>
+                <img src={img} className="portfolio__img" />
+              </a>
+            </div>
+            <div className="portfolio__icons">
+              <img src={icon1} className="portfolio__icon" />
+              <img src={icon2} className="portfolio__icon" />
+              <img src={icon3} className="portfolio__icon" />
+              <img src={icon4} className="portfolio__icon" />
+              <img src={icon5} className="portfolio__icon" />
             </div>
             <span className="portfolio__category text-cs">{category}</span>
-            <div className="home__social-link">
-              <FaReact style={{ padding: "2" }} /> <SiTypescript />
-            </div>
+
             <div className="home__social-link"></div>
             <h3 className="portfolio__title">{title}</h3>
             <p className="portfolio__description">{description}</p>

@@ -1,9 +1,16 @@
-import Project1 from "./assets/project1.jpeg";
-import Project2 from "./assets/project2.jpg";
-import Project3 from "./assets/project3.jpeg";
-import Project4 from "./assets/project4.jpeg";
-import Project5 from "./assets/project5.jpg";
-import Project6 from "./assets/project6.jpg";
+import { FaNode, FaGithubSquare, FaReact } from "react-icons/fa";
+import { SiTypescript, SiMysql, SiMongodb } from "react-icons/si";
+
+import ReactLogo from "./assets/ReactLogo.png";
+import TypeScriptLogo from "./assets/TypeScriptLogo.png";
+import NodeLogo from "./assets/NodeLogo.png";
+import MySqlLogo from "./assets/MySqlLogo.png";
+import PostGresLogo from "./assets/PostGresLogo.png";
+import TailwindLogo from "./assets/TailwindLogo.png";
+import BootstrapLogo from "./assets/BootstrapLogo.png";
+import ChakraLogo from "./assets/ChakraLogo.png";
+import ViteLogo from "./assets/ViteLogo.png";
+
 import blogPicture from "./assets/blogPicture.jpg";
 import DNDnotes from "./assets/DNDnotes.jpg";
 import WhatsForDinner from "./assets/WhatsForDinner.jpg";
@@ -143,6 +150,11 @@ export const projects = [
   {
     id: 1,
     img: blogPicture,
+    icon1: ReactLogo,
+    icon2: TypeScriptLogo,
+    icon3: NodeLogo,
+    icon4: MySqlLogo,
+    icon5: BootstrapLogo,
     category: "Full-Stack",
     title: "Blog Website",
     description:
@@ -152,6 +164,11 @@ export const projects = [
   {
     id: 2,
     img: DNDnotes,
+    icon1: ReactLogo,
+    icon2: TypeScriptLogo,
+    icon3: NodeLogo,
+    icon4: PostGresLogo,
+    icon5: TailwindLogo,
     category: "Full-Stack",
     title: "Note Taking",
     description:
@@ -161,6 +178,11 @@ export const projects = [
   {
     id: 3,
     img: WhatsForDinner,
+    icon1: ReactLogo,
+    icon2: TypeScriptLogo,
+    icon3: NodeLogo,
+    icon4: BootstrapLogo,
+    icon5: ViteLogo,
     category: "Development",
     title: "What's for Dinner?",
     description:
@@ -170,6 +192,11 @@ export const projects = [
   {
     id: 4,
     img: CurrencyConverter,
+    icon1: ReactLogo,
+    icon2: TypeScriptLogo,
+    icon3: NodeLogo,
+    icon4: ChakraLogo,
+    icon5: ViteLogo,
     category: "UI",
     title: "Currency Converter",
     description:

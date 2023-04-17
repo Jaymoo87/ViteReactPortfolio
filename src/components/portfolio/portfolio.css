@@ -82,3 +82,15 @@
 .portfolio__description {
   min-height: 125px;
 }
+
+.portfolio__icons {
+  justify-content: space-around;
+  display: flex;
+  block-size: 42px;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 20px;
+}
+
+.portfolio__icon {
+  margin: 6px;
+}
