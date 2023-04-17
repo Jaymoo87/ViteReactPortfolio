@@ -7,6 +7,7 @@ import Project6 from "./assets/project6.jpg";
 import blogPicture from "./assets/blogPicture.jpg";
 import DNDnotes from "./assets/DNDnotes.jpg";
 import WhatsForDinner from "./assets/WhatsForDinner.jpg";
+import CurrencyConverter from "./assets/currencyconverter.jpg";
 
 import Testimonial1 from "./assets/testimonial1.jpg";
 import Testimonial2 from "./assets/testimonial2.jpg";
@@ -166,14 +167,14 @@ export const projects = [
       "Get a random selection of What's For Dinner. A simple app with some motion frames, dynamically weighted random choices, and persisted styles without re-rendering. ",
     link: "https://restaurant-picker-eta.vercel.app/",
   },
-  // {
-  //   id: 4,
-  //   img: Project4,
-  //   category: "Photography",
-  //   title: "Mozar",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-  // },
+  {
+    id: 4,
+    img: CurrencyConverter,
+    category: "UI",
+    title: "Currency Converter",
+    description:
+      "This currency converter app provides fast and easy currency conversion using real-time exchange rates from API calls. It has user-friendly interface that enable quick currency conversions. ",
+  },
   // {
   //   id: 5,
   //   img: Project5,
