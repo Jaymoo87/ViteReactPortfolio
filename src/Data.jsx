@@ -174,6 +174,7 @@ export const projects = [
     title: "Currency Converter",
     description:
       "This currency converter app provides fast and easy currency conversion using real-time exchange rates from API calls. It has user-friendly interface that enable quick currency conversions. ",
+    link: "https://currency-converter-jaymoo87.vercel.app/",
   },
   // {
   //   id: 5,
