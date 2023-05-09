@@ -9,6 +9,7 @@ import ChakraLogo from './assets/ChakraLogo.png';
 import ViteLogo from './assets/ViteLogo.png';
 import NextjsLogo from './assets/NextjsLogo.png';
 import StyledComponentsLogo from './assets/styled-componentsLogo.png';
+import AWSLogo from './assets/AWSLogo.png';
 
 import blogPicture from './assets/blogPicture.jpg';
 import DNDnotes from './assets/DNDnotes.jpg';
@@ -222,6 +223,7 @@ export const projects = [
     icon2: NodeLogo,
     icon3: StyledComponentsLogo,
     icon4: NextjsLogo,
+    icon5: AWSLogo,
     img: Ecommerce,
     category: 'UI/UX Design',
     title: 'Ecommerce mockup design',
