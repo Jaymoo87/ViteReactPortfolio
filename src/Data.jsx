@@ -227,6 +227,7 @@ export const projects = [
     title: 'Ecommerce mockup design',
     description:
       'A basic format for an ecommerce front end. Stripe integration is for testing purposes, but can easily be adjusted for production.',
+    link: 'https://nextjs-ecommerce-frontend-nu.vercel.app/',
   },
 ];
 
