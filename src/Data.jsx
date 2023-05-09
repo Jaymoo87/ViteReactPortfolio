@@ -8,12 +8,14 @@ import BootstrapLogo from './assets/BootstrapLogo.png';
 import ChakraLogo from './assets/ChakraLogo.png';
 import ViteLogo from './assets/ViteLogo.png';
 import NextjsLogo from './assets/NextjsLogo.png';
-import ToolsAndLibraries from './assets/toolsandlibraries.jpg';
+import StyledComponentsLogo from './assets/styled-componentsLogo.png';
 
 import blogPicture from './assets/blogPicture.jpg';
 import DNDnotes from './assets/DNDnotes.jpg';
 import WhatsForDinner from './assets/WhatsForDinner.jpg';
 import CurrencyConverter from './assets/currencyconverter.jpg';
+import ToolsAndLibraries from './assets/toolsandlibraries.jpg';
+import Ecommerce from './assets/ecommerce-mockup.jpg';
 
 import Testimonial1 from './assets/testimonial1.jpg';
 import Testimonial2 from './assets/testimonial2.jpg';
@@ -214,14 +216,18 @@ export const projects = [
     description: 'A simple site showing some of my favirite libraries using tailwind and next.js.',
     link: 'https://toolsandlibraries.vercel.app/',
   },
-  // {
-  //   id: 6,
-  //   img: Project6,
-  //   category: "Branding",
-  //   title: "Kana",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-  // },
+  {
+    id: 6,
+    icon1: ReactLogo,
+    icon2: NodeLogo,
+    icon3: StyledComponentsLogo,
+    icon4: NextjsLogo,
+    img: Ecommerce,
+    category: 'UI/UX Design',
+    title: 'Ecommerce mockup design',
+    description:
+      'A basic format for an ecommerce front end. Stripe integration is for testing purposes, but can easily be adjusted for production.',
+  },
 ];
 
 export const cv = [
