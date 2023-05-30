@@ -1,6 +1,9 @@
 .portfolio {
   background-image: var(--first-gradient);
 }
+.portfolio__items {
+  min-height: 650px;
+}
 
 .portfolio__list {
   display: flex;
@@ -20,7 +23,7 @@
 }
 
 .portfolio__list-item::before {
-  content: "";
+  content: '';
   width: 0;
   height: 2px;
   max-width: 60%;

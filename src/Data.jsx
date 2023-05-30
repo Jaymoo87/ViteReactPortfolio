@@ -214,7 +214,7 @@ export const projects = [
     img: ToolsAndLibraries,
     category: 'UI',
     title: 'Tools and Libraries',
-    description: 'A simple site showing some of my favirite libraries using tailwind and next.js.',
+    description: 'A simple site showing some of my favorite libraries using tailwind and next.js.',
     link: 'https://toolsandlibraries.vercel.app/',
   },
   {

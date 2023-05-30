@@ -1,12 +1,15 @@
-import React from "react";
-import JustinFaceCutOut from "../../assets/JustinFaceCutOut.png";
-import shapeOne from "../../assets/shape-1.png";
-import shapeTwo from "../../assets/shape-2.png";
+import React from 'react';
+import { Tilt } from 'react-tilt';
+import { motion } from 'framer-motion';
 
-import { FaNode, FaGithubSquare, FaReact } from "react-icons/fa";
-import { SiTypescript, SiMysql, SiMongodb } from "react-icons/si";
-import CV from "../../assets/Justin-Resume.pdf";
-import "./home.css";
+import JustinFaceCutOut from '../../assets/JustinFaceCutOut.png';
+import shapeOne from '../../assets/shape-1.png';
+import shapeTwo from '../../assets/shape-2.png';
+
+import { FaNode, FaGithubSquare, FaReact } from 'react-icons/fa';
+import { SiTypescript, SiMysql, SiMongodb } from 'react-icons/si';
+import CV from '../../assets/Justin-Resume.pdf';
+import './home.css';
 
 const Home = () => {
   return (
@@ -16,10 +19,11 @@ const Home = () => {
           <p className="home__subtitle text-cs">
             Hello, <span>My Name Is</span>
           </p>
-
-          <h1 className="home__title text-cs">
-            <span>JUSTIN</span> MURRAH
-          </h1>
+          <Tilt>
+            <h1 className="home__title text-cs">
+              <span>JUSTIN</span> MURRAH
+            </h1>
+          </Tilt>
 
           <p className="home__job">
             <span className="text-cs">I Am A</span> <b>Web Developer</b>
@@ -75,19 +79,20 @@ const Home = () => {
             </div>
             <a href="https://github.com/Jaymoo87" className="home__social-link">
               <FaGithubSquare />
-            </a>{" "}
+            </a>{' '}
             <span>
-              GitHub Link:{" "}
+              GitHub Link:{' '}
               <a href="https://github.com/Jaymoo87" className="githubLink">
                 Jaymoo
               </a>
             </span>
           </div>
-
           <div className="home__btns text-cs">
-            <a download="" href={CV} className="btn">
-              Download CV
-            </a>
+            <Tilt>
+              <motion.a options={{ max: 25, scale: 1, speed: 50 }} download="" href={CV} className="btn">
+                Download CV
+              </motion.a>
+            </Tilt>
 
             <a href="#skills" className="hero__link text-cs">
               My Skills
