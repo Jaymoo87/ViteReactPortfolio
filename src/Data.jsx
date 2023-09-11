@@ -10,6 +10,9 @@ import ViteLogo from './assets/ViteLogo.png';
 import NextjsLogo from './assets/NextjsLogo.png';
 import StyledComponentsLogo from './assets/styled-componentsLogo.png';
 import AWSLogo from './assets/AWSLogo.png';
+import LiquidJsLogo from './assets/LiquidJsLogo.png';
+import MidJourneyLogo from './assets/MidJourneyLogo.png';
+import ShopifyLogo from './assets/ShopifyLogo.png';
 
 import blogPicture from './assets/blogPicture.jpg';
 import DNDnotes from './assets/DNDnotes.jpg';
@@ -17,6 +20,7 @@ import WhatsForDinner from './assets/WhatsForDinner.jpg';
 import CurrencyConverter from './assets/currencyconverter.jpg';
 import ToolsAndLibraries from './assets/toolsandlibraries.jpg';
 import Ecommerce from './assets/ecommerce-mockup.jpg';
+import ScentsOfTheSouth from './assets/ScentsOfTheSouth.jpg';
 
 import Testimonial1 from './assets/testimonial1.jpg';
 import Testimonial2 from './assets/testimonial2.jpg';
@@ -230,6 +234,17 @@ export const projects = [
     description:
       'A basic format for an ecommerce front end. Stripe integration is for testing purposes, but can easily be adjusted for production.',
     link: 'https://nextjs-ecommerce-frontend-nu.vercel.app/',
+  },
+  {
+    id: 7,
+    icon1: ShopifyLogo,
+    icon2: LiquidJsLogo,
+    icon3: MidJourneyLogo,
+    img: ScentsOfTheSouth,
+    category: 'UI/UX Design',
+    title: 'Shopify Ecommerce',
+    description: 'Live Shopify ecommerce store.',
+    link: 'https://scentsofthesouthal.com/',
   },
 ];
 
