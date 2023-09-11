@@ -237,10 +237,9 @@ export const projects = [
   },
   {
     id: 7,
-    icon1: ReactLogo,
-    icon2: ShopifyLogo,
-    icon3: LiquidJsLogo,
-    icon4: MidJourneyLogo,
+    icon1: ShopifyLogo,
+    icon2: LiquidJsLogo,
+    icon3: MidJourneyLogo,
     img: ScentsOfTheSouth,
     category: 'UI/UX Design',
     title: 'Shopify Ecommerce',
