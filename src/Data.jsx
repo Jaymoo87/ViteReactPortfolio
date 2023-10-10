@@ -21,6 +21,7 @@ import CurrencyConverter from './assets/currencyconverter.jpg';
 import ToolsAndLibraries from './assets/toolsandlibraries.jpg';
 import Ecommerce from './assets/ecommerce-mockup.jpg';
 import ScentsOfTheSouth from './assets/ScentsOfTheSouth.jpg';
+import DetailSupply from './assets/detailSupplyStore.jpg';
 
 import Testimonial1 from './assets/testimonial1.jpg';
 import Testimonial2 from './assets/testimonial2.jpg';
@@ -246,6 +247,17 @@ export const projects = [
     description: 'Live Shopify ecommerce store.',
     link: 'https://scentsofthesouthal.com/',
   },
+  {
+    id: 8,
+    icon1: ShopifyLogo,
+    icon2: LiquidJsLogo,
+    icon3: MidJourneyLogo,
+    img: DetailSupply,
+    category: 'UI/UX Design',
+    title: 'Shopify Ecommerce',
+    description: 'Live Shopify ecommerce store.',
+    link: 'https://detailsupplyal.com/',
+  },
 ];
 
 export const cv = [
@@ -268,16 +280,6 @@ export const cv = [
       'My studies provided me with a broad range of technical skills, as well as a deep understanding of how technology can be applied to solve complex problems in a variety of industries. I developed strong analytical and problem-solving skills, which I applied to a variety of projects and assignments, including the design and development of web and mobile applications',
     category: 'education',
   },
-
-  // {
-  //   id: 3,
-  //   title: "IT Future",
-  //   subtitle: "High School",
-  //   date: "2010 - 2012",
-  //   description:
-  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  //   category: "education",
-  // },
 
   {
     id: 4,
